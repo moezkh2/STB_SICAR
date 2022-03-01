@@ -60,9 +60,26 @@ function NavBar() {
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Menu</Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body>
-                    Some text as placeholder. In real life you can have the elements you
-                    have chosen. Like, text, images, lists, etc.
+                <Offcanvas.Body >
+
+                    <div className='mobileMenuList'>
+                        <li>
+                            <a href="#">Nous Connaitre</a>
+                        </li>
+                        <li>
+                            <a href="#">Nos Fonds</a>
+                        </li>
+                        <li>
+                            <a href="#">Nos Realisations</a>
+                        </li>
+                        <li>
+                            <a href="#"> Responsabilite Sociale</a>
+                        </li>
+                        <li>
+                            <a href="#"> Actualités</a>
+                        </li>
+                    </div>
+
                 </Offcanvas.Body>
             </Offcanvas>
         </div>

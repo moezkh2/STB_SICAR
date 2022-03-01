@@ -73,6 +73,16 @@ Button {
     gap: 3%;
     margin-left: 3%;
   }
+  .mobileMenuList a {
+    text-decoration: none;
+  }
+  .mobileMenuList li {
+    list-style: none;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10%;
+  }
 }
 
 .contactBar a {

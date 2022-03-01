@@ -1,21 +1,20 @@
-import React from 'react'
+import { React, useState } from 'react'
 import './navBar.css'
-import Logo from '../../images/Logo_STB_SICAR.png'
-import YouTube from '../../images/youtube.png'
-import Twitter from '../../images/twitter.png'
-import Instagram from '../../images/instagram.png'
-import LinkedIn from '../../images/linkedin.png'
-import Facebook from '../../images/facebook.png'
+import { Button, Offcanvas } from 'react-bootstrap'
 function NavBar() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <div className="navContainer">
             <div className="contactBar">
                 <div className="socialMedia">
-                    <img src={Facebook} alt=""></img>
-                    <img src={Instagram} alt=""></img>
-                    <img src={LinkedIn} alt=""></img>
-                    <img src={Twitter} alt=""></img>
-                    <img src={YouTube} alt=""></img>
+                    <img src="https://res.cloudinary.com/drjuymvy4/image/upload/v1646075454/stb/facebook_xv19jy.png" alt=""></img>
+                    <img src="https://res.cloudinary.com/drjuymvy4/image/upload/v1646075461/stb/instagram_fum9b9.png" alt=""></img>
+                    <img src="https://res.cloudinary.com/drjuymvy4/image/upload/v1646075468/stb/linkedin_niewrd.png" alt=""></img>
+                    <img src="https://res.cloudinary.com/drjuymvy4/image/upload/v1646075499/stb/twitter_b0ttzv.png" alt=""></img>
+                    <img src="https://res.cloudinary.com/drjuymvy4/image/upload/v1646075510/stb/youtube_bpzw0y.png" alt=""></img>
                 </div>
                 <div class="contact">
                     <a href="#">Contact</a>
@@ -33,7 +32,7 @@ function NavBar() {
 
             </div>
             <div className="navBar">
-                <img src={Logo} alt="Logo"></img >
+                <img src="https://res.cloudinary.com/drjuymvy4/image/upload/v1646075475/stb/Logo_STB_SICAR_spjblr.png" alt="Logo"></img >
                 <ul>
                     <li>
                         <a href="#">Nous Connaitre</a>
@@ -51,7 +50,21 @@ function NavBar() {
                         <a href="#"> Actualités</a>
                     </li>
                 </ul>
+                <Button ClassName='mobileMenu' variant="primary" onClick={handleShow}>
+                    Menu
+                </Button>
             </div>
+
+
+            <Offcanvas show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton>
+                    <Offcanvas.Title>Menu</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                    Some text as placeholder. In real life you can have the elements you
+                    have chosen. Like, text, images, lists, etc.
+                </Offcanvas.Body>
+            </Offcanvas>
         </div>
 
     )

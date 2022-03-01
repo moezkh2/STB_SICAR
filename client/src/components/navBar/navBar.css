@@ -6,19 +6,29 @@
   display: flex;
   flex-direction: row;
   background-color: #eceef0;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 96vw;
 }
 
 .navBar a {
   text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5vw;
+  line-height: 20px;
+  /* or 100% */
+
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
 ul {
   display: flex;
   width: 80%;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 0%;
 }
 .navBar li {
   list-style: none;
@@ -44,6 +54,27 @@ a:hover {
   display: flex;
   width: 15%;
 }
+Button {
+  display: none !important;
+  background-color: #5a84bb !important;
+}
+@media only screen and (max-width: 768px) {
+  .contactBar {
+    justify-content: space-around;
+  }
+  Button {
+    display: block !important;
+  }
+  ul {
+    display: none;
+  }
+
+  .socialMedia {
+    gap: 3%;
+    margin-left: 3%;
+  }
+}
+
 .contactBar a {
   font-family: "Montserrat";
   font-style: normal;

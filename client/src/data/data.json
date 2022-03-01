@@ -1,0 +1,121 @@
+{
+  "carousel": [
+    {
+      "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646075413/stb/Carousel-img1_cvecdx.png",
+      "title": "Nous plaçons la confiance comme valeur fondamentale d’un partenariat gagnant"
+    },
+    {
+      "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646075420/stb/Carousel-img2_hlve39.png",
+      "title": "Nous plaçons la confiance comme valeur fondamentale d’un partenariat gagnant"
+    },
+    {
+      "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646075427/stb/Carousel-img3_pxqnaa.png",
+      "title": "Nous plaçons la confiance comme valeur fondamentale d’un partenariat gagnant"
+    }
+  ],
+  "espritCardData": [
+    {
+      "src": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646075433/stb/esprit-img1_abg7uo.png",
+      "title": "UN ACCOMPAGNEMENT",
+      "text": "Nous partageons la conviction que la valeur d’une PME repose sur la qualité de son équipe dirigeante. "
+    },
+    {
+      "src": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646075440/stb/esprit-img2_aec6be.png",
+      "title": "LES VALEURS QUI SE PARTAGENT",
+      "text": "Partager les valeurs de respect, de loyauté et de transparence pour poser ensemble les fondations d’un partenariat durable et constructif."
+    },
+    {
+      "src": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646075447/stb/esprit-img3_ka8soz.png",
+      "title": "UNE AVENTURE HUMAINE",
+      "text": "Chaque partenariat est une aventure riche d’expériences partagées et d’ambitions assumées."
+    }
+  ],
+  "section1": {
+    "title": "NOTRE VALEUR AJOUTÉE",
+    "backgroundImg": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646081165/stb/notre-valeur-img_glh9yd.png",
+    "text": "L’accompagnement des participations est une pierre angulaire du positionnement de la STB SICAR et un marqueur fort de sa stratégie. Notre expérience montre qu’en apportant des ressources et des compétences complémentaires à celles des équipes dirigeantes, nous pouvons contribuer significativement à la création de valeur stratégique de l’entreprise, tant sur le plan économique que social."
+  },
+  "section2": {
+    "title": "Contribution ODD",
+    "contributionOddItems": [
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085125/stb/ODD4_j2reli.png",
+        "introduction": [
+          {
+            "title": "Compétences et accès à l’emploi 4.4 :",
+            "text": " D’ici à 2030, augmenter considérablement le nombre de jeunes et d’adultes disposant des compétences, notamment techniques et professionnelles, nécessaires à l’emploi, à l’obtention d’un travail décent et à l’entrepreneuriat"
+          }
+        ],
+        "description": "En 2021 et malgré la crise sanitaire,  la STB SICAR, qui compte 12 collaborateurs, a assuré la formation de 4 stagiaires aux métiers du capital investissement.Également et en application de sa politique d’ouverture sur l’université, la STB SICAR et dans le cadre du partenariat avec l’école supérieure des sciences et technologies du design, un challenge pour la rénovation de son siège social a été lancé et a concerné 40 étudiants."
+      },
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085131/stb/ODD5_p2qsfm.png",
+        "introduction": [
+          {
+            "title": "Lutte contre les discriminations",
+            "text": " 5.1 : Mettre fin, dans le monde entier, à toutes les formes de discrimination à l’égard des femmes et des filles."
+          },
+          {
+            "title": " Participation et accès aux postes de direction",
+            "text": "5.5 : Garantir la participation entière et effective des femmes et leur accès en toute égalité aux fonctions de direction à tous les niveaux de décision, dans la vie politique, économique et publique."
+          }
+        ],
+        "description": "L’effectif de STB SICAR est composé de 70% de femmes contre 30% d’hommes. La femme est représentée à hauteur de 20% dans son conseil d’administration. STB SICAR suit également la politique mise en œuvre auprès des entreprises qu’elle accompagne en ce qui concerne l’emploi des femmes et leur participation aux postes de responsabilité."
+      },
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085138/stb/ODD7_rkaxbq.png",
+        "introduction": [
+          {
+            "title": "Énergies renouvelables",
+            "text": " 7.2 : D’ici à 2030, accroître nettement la part de l’énergie renouvelable dans le bouquet énergétique mondial"
+          }
+        ],
+        "description": "En 2020, sur 7 projets financés 2 ont concerné des projets industriels d’énergies renouvelables. "
+      },
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085145/stb/ODD8_vbpooe.png",
+        "introduction": [
+          {
+            "title": "Développement des TPE et PME",
+            "text": "8.3 : Promouvoir des politiques axées sur le développement qui favorisent des activités productives, la création d’emplois décents, l’entrepreneuriat, la créativité et l’innovation et stimulent la croissance des micro-entreprises et des petites et moyennes entreprises et facilitent leur intégration dans le secteur formel, y compris par l’accès aux services financiers"
+          }
+        ],
+        "description": "Entre 2016 et 2020, la STB SICAR a contribué à la création voire maintien de plus de 1700 postes. Entre 2018 et 2020, plus de 20 projets de création et e développement de PME ont été approuvés. Pour la période 2016-2020, et si l’on se réfère au calcul du levier (Coût total des projets investis/Montant  investi), un dinar investi par la STB SICAR en draine en moyenne 8 en termes d’investissement."
+      },
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085154/stb/ODD9_szp7ol.png",
+        "introduction": [
+          {
+            "title": "Industrialisation socio-économiquement durable",
+            "text": "9.2 : Promouvoir une industrialisation durable qui profite à tous et, d’ici à 2030, augmenter nettement la contribution de l’industrie à l’emploi et au produit intérieur brut, en fonction du contexte national, et la multiplier par deux dans les pays les moins avancés"
+          }
+        ],
+        "description": "La STB SICAR a réalisé 297 investissements répartis sur tout le territoire dont 53% dans l’industrie.Voire carte"
+      },
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085166/stb/ODD12_f5oqfu.png",
+        "introduction": [
+          {
+            "title": "Réduction des déchets",
+            "text": "12.5 D’ici à 2030, réduire considérablement la production de déchets par la prévention, la réduction, le recyclage et la réutilisation"
+          }
+        ],
+        "description": "La STB SICAR a fait un don du matériel informatique usagé à l’association « sharek » au profit d’étudiants tunisiens qui en ont besoin afin de poursuivre les programmes à distance. La STB SICAR a signé une convention de partenariat avec El Moraskal pour le recyclage du papier"
+      },
+      {
+        "imgUrl": "https://res.cloudinary.com/drjuymvy4/image/upload/v1646085176/stb/ODD16_pttvoo.png",
+        "introduction": [
+          {
+            "title": "Institutions exemplaires",
+            "text": "16.6 : Mettre en place des institutions efficaces, responsables et transparentes à tous les niveaux."
+          },
+          {
+            "title": "Prise de décisions inclusive",
+            "text": "16.7 : Faire en sorte que le dynamisme, l’ouverture, la participation et la représentation à tous les niveaux caractérisent la prise de décisions"
+          }
+        ],
+        "description": "La STB SICAR promeut une gouvernance responsable auprès des entreprises en portefeuille et veille à la mise en place des comités d’audit, de rémunération, de risques, …etc lorsque la taille le permet."
+      }
+    ]
+  }
+}

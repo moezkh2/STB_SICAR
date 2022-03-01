@@ -5,14 +5,12 @@
 .navBar {
   display: flex;
   flex-direction: row;
-  background-color: rgb(236, 238, 240);
+  background-color: #eceef0;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
-.navBar > img {
-  width: 7%;
-  height: 7%;
-}
+
 .navBar a {
   text-decoration: none;
 }
@@ -38,7 +36,44 @@ a:hover {
 /*contactBar styles */
 .contactBar {
   display: flex;
+  padding: 10px;
+  justify-content: space-between;
 }
 .socialMedia {
-  width: 10%;
+  justify-content: space-around;
+  display: flex;
+  width: 15%;
+}
+.contactBar a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 2px;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  color: #837c7c;
+}
+select {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0px;
+  outline: 0px;
+  background-color: #e5e5e5;
+  color: #837c7c;
+}
+.vl {
+  border-left: 2px solid #837c7c;
+  height: 100%;
+  margin: 2px;
+}
+.contact {
+  display: flex;
+  align-items: center;
 }

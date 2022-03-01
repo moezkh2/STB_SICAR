@@ -17,6 +17,20 @@ function NavBar() {
                     <img src={Twitter} alt=""></img>
                     <img src={YouTube} alt=""></img>
                 </div>
+                <div class="contact">
+                    <a href="#">Contact</a>
+                    <div class="vl"></div>
+
+                    <select name="FR" >
+                        <option value="FR">FR</option>
+                        <option value="AR">AR</option>
+                        <option value="EN">EN</option>
+
+                    </select>
+
+                </div>
+
+
             </div>
             <div className="navBar">
                 <img src={Logo} alt="Logo"></img >

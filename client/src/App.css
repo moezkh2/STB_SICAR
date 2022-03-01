@@ -1,5 +1,5 @@
-.container {
+.homeContainer {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 20px 200px;
+  justify-content: center;
+  grid-template-rows: auto 1fr auto;
 }

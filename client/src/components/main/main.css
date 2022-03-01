@@ -1,0 +1,130 @@
+.container {
+  grid-row: 2;
+  padding-top: 1%;
+}
+.carouselText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+.EspritCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 13rem;
+  background: #ffffff;
+  box-shadow: 2px 6px 3px 4px #e1eefe;
+  border-radius: 10px 0px;
+  margin: 1rem;
+  padding: 0.5%;
+}
+.EspritCardTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #045ac2;
+}
+.EspritCardText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+
+  /* or 167% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/* .EspritCardImg {
+  width: 100%;
+  height: auto;
+} */
+.espritSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  padding: 2%;
+}
+.mainBlueTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #045ac2;
+  margin: 3%;
+}
+
+.notreValeur {
+  position: relative;
+}
+.notreValeurText {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  max-width: 60%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #ffffff;
+}
+
+.notreValeurImg {
+  max-width: 100%;
+}
+
+.sectionTooContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px #b9d9ff;
+  border-radius: 10px;
+  padding: 5%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  gap: 2%;
+}
+.sectionTooContainer > div {
+  width: 28rem;
+  height: 31rem;
+}
+.secttionTooIntro {
+  padding: 5%;
+}
+.sectionTooContainer span {
+  font-weight: border;
+  font-size: 20px;
+  padding: 6%;
+}
+@media only screen and (min-width: 768px) {
+  .secttionTooDisc {
+    margin-top: 44%;
+  }
+}
+
+.carousel-control-prev-icon {
+  background-color: #b9d9ff;
+}
+.carousel-control-next-icon {
+  background-color: #b9d9ff;
+}
+.carousel-indicators button {
+  background-color: #b9d9ff !important;
+}

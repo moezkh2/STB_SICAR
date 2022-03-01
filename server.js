@@ -1,3 +1,4 @@
+const path = require('path')
 const express = require('express');
 const app = express();
 require('dotenv').config()
@@ -5,9 +6,9 @@ require('dotenv').config()
 const PORT = process.env.PORT || 5000;
 
 //  API endPoints
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
 
-})
+}) */
 
 
 //production mode

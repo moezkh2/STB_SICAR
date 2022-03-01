@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 function Home() {
   return (
     <Routes>
-      <Route path="/main" element={<Main />}></Route>
+      <Route path="/" element={<Main />}></Route>
     </Routes>
 
   )
